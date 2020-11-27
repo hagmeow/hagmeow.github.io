@@ -19,8 +19,8 @@ html, body {
     left: 50%;
     transform: translate(-50%, -45%);
 }
-.inline {
-    display: inline;
+ul {
+    list-style: none;
 }
 h1 {
     line-height: 15px;
