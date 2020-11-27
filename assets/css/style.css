@@ -1,0 +1,37 @@
+html, body {
+    font-family: 'Arial', sans-serif;
+
+    background: #282828;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#bg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.center {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+}
+.inline {
+    display: inline;
+}
+h1 {
+    line-height: 15px;
+}
+h1, a {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px rgba(255,209,220,150), -1px -1px 0px rgba(0,0,0,150);
+}
+ul {
+    padding: 0;
+    text-align: center;
+}
