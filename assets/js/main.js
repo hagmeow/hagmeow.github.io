@@ -11,7 +11,7 @@ const songs = [
     {"name": "aries - fool's gold"},
     {"name": "kurtains - upside down"},
     {"name": "osquinn - oblivion"},
-    {"name": "brakence - loveslong//slacker"}
+    {"name": "brakence - loveslong//slacker"},
     {"name": "glaive - trouble in paradise"}
 ]
 
