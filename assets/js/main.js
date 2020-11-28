@@ -4,7 +4,6 @@ const debug = true;
 
 const musicElement = $('#music');
 const songNameElement = $('#rainbow');
-const songNumber = Math.floor(Math.random() * 6);
 const songs = [
     {"name": "glaive - astrid"},
     {"name": "brakence - gotchu"},
@@ -14,6 +13,8 @@ const songs = [
     {"name": "brakence - loveslong//slacker"},
     {"name": "glaive - trouble in paradise"}
 ]
+
+const songNumber = Math.floor(Math.random() * songs.length);
 
 songNameElement.text(songs[songNumber].name);
 musicElement.html(`<audio loop id="audio"><source src="assets/music/${songNumber}.mp3" type="audio/mpeg"></audio>`);
