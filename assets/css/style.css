@@ -158,10 +158,11 @@
 
 html, body {
     font-family: 'Arial', sans-serif;
-
     background: #282828;
     margin: 0;
     padding: 0;
+    position: relative;
+    height: 100%;
     overflow: hidden;
 }
 #bg {
