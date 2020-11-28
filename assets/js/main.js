@@ -12,6 +12,7 @@ const songs = [
     {"name": "kurtains - upside down"},
     {"name": "osquinn - oblivion"},
     {"name": "brakence - loveslong//slacker"}
+    {"name": "glaive - trouble in paradise"}
 ]
 
 songNameElement.text(songs[songNumber].name);
