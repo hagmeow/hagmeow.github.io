@@ -1,5 +1,5 @@
 // kinda junk but it works lmao
-const debug = true;
+const debug = false;
 
 
 const musicElement = $('#music');
